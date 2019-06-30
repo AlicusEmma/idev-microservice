@@ -1,25 +1,16 @@
 # App Server Config
 server:
   #端口号
-  port: 10000
+  port: 10100
   #项目名，如果不设定，默认是 /
   context-path: /
 
 eureka:
-  instance:
-    hostname: localhost
   client:
-    registerWithEureka: false
-    fetchRegistry: false
-    serviceUrl:
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+    service-url:
+      defaultZone: http://localhost:10001/eureka/
 
-# DataSource Config
+# Config
 spring:
-  datasource:
-    driver-class-name: org.h2.Driver
-    schema: classpath:db/schema-h2.sql
-    data: classpath:db/data-h2.sql
-    url: jdbc:h2:mem:test
-    username: root
-    password: test
+  application:
+    name: idev-gateway # 在eureka中此值作为vipaddress,在发现服务时使用

@@ -1,23 +1,22 @@
-package com.idev.gateway;
+package com.idev.biz.admin;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
-@RestController
 @EnableDiscoveryClient
-public class iDevGateWayApplication {
+public class iDevBizAdminApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(iDevGateWayApplication.class, args);
+        SpringApplication.run(iDevBizAdminApplication.class, args);
     }
 
     @RequestMapping("/")
     public String index(){
-        return "Hello iDev GateWay Application2 " +
+        return "Hello iDevBizAdminApplication " +
                 ", based on Spring Boot Framework!";
     }
+
 }
