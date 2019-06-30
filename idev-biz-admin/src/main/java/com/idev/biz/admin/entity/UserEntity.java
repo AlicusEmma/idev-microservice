@@ -1,6 +1,6 @@
 package com.idev.biz.admin.entity;
 
-public class User {
+public class UserEntity {
 
     private long id;
 

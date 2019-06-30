@@ -1,5 +1,7 @@
 package com.idev.biz.admin.controller;
 
+import com.idev.biz.admin.entity.UserEntity;
+import com.idev.biz.admin.service.UserService;
 import com.netflix.appinfo.InstanceInfo;
 import com.netflix.discovery.EurekaClient;
 import org.json.JSONException;
@@ -11,10 +13,14 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 @RestController
 public class UserController {
+
+    @Autowired
+    private UserService userService;
 
     @GetMapping("/user/{id}")
     String getUserById(@PathVariable Long id) {
@@ -24,9 +30,12 @@ public class UserController {
             json.put("id","007");
             json.put("name","Alicus");
             json.put("age","30");
+            json.put("User Length",userService.getAll().size());
         } catch (JSONException e) {
             e.printStackTrace();
         }
+
+
         return json.toString();
     }
 

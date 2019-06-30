@@ -14,10 +14,3 @@ eureka:
 spring:
   application:
     name: idev-biz-admin # 在eureka中此值作为vipaddress,在发现服务时使用
-  datasource:
-    driver-class-name: org.h2.Driver
-    schema: classpath:db/schema-h2.sql
-    data: classpath:db/data-h2.sql
-    url: jdbc:h2:mem:test
-    username: root
-    password: test
