@@ -1,2 +1,8 @@
 rootProject.name = 'idev-microservice'
-
+include 'idev-gateway'
+include 'idev-register'
+include 'idev-config'
+include 'idev-core'
+include 'idev-common-biz'
+include 'idev-biz-admin'
+include 'idev-biz-ihome'

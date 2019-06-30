@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="idev-microservice.idev-biz-admin.main" target="1.8" />
+      <module name="idev-microservice.idev-biz-admin.test" target="1.8" />
+      <module name="idev-microservice.idev-biz-ihome.main" target="1.8" />
+      <module name="idev-microservice.idev-biz-ihome.test" target="1.8" />
+      <module name="idev-microservice.idev-common-biz.main" target="1.8" />
+      <module name="idev-microservice.idev-common-biz.test" target="1.8" />
+      <module name="idev-microservice.idev-config.main" target="1.8" />
+      <module name="idev-microservice.idev-config.test" target="1.8" />
+      <module name="idev-microservice.idev-core.main" target="1.8" />
+      <module name="idev-microservice.idev-core.test" target="1.8" />
+      <module name="idev-microservice.idev-gateway.main" target="1.8" />
+      <module name="idev-microservice.idev-gateway.test" target="1.8" />
+      <module name="idev-microservice.idev-ihome.main" target="1.8" />
+      <module name="idev-microservice.idev-ihome.test" target="1.8" />
+      <module name="idev-microservice.idev-register.main" target="1.8" />
+      <module name="idev-microservice.idev-register.test" target="1.8" />
+      <module name="idev-microservice.main" target="1.8" />
+      <module name="idev-microservice.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

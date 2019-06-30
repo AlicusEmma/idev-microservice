@@ -9,6 +9,13 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/idev-biz-admin" />
+            <option value="$PROJECT_DIR$/idev-biz-ihome" />
+            <option value="$PROJECT_DIR$/idev-common-biz" />
+            <option value="$PROJECT_DIR$/idev-config" />
+            <option value="$PROJECT_DIR$/idev-core" />
+            <option value="$PROJECT_DIR$/idev-gateway" />
+            <option value="$PROJECT_DIR$/idev-register" />
           </set>
         </option>
         <option name="useAutoImport" value="true" />

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/idev-biz-admin.iml" filepath="$PROJECT_DIR$/.idea/modules/idev-biz-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/idev-biz-ihome.iml" filepath="$PROJECT_DIR$/.idea/modules/idev-biz-ihome.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/idev-common-biz.iml" filepath="$PROJECT_DIR$/.idea/modules/idev-common-biz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/idev-config.iml" filepath="$PROJECT_DIR$/.idea/modules/idev-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/idev-core.iml" filepath="$PROJECT_DIR$/.idea/modules/idev-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/idev-gateway.iml" filepath="$PROJECT_DIR$/.idea/modules/idev-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/idev-microservice.iml" filepath="$PROJECT_DIR$/.idea/modules/idev-microservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/idev-biz-admin/idev-microservice.idev-biz-admin.iml" filepath="$PROJECT_DIR$/.idea/modules/idev-biz-admin/idev-microservice.idev-biz-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/idev-biz-admin/idev-microservice.idev-biz-admin.main.iml" filepath="$PROJECT_DIR$/.idea/modules/idev-biz-admin/idev-microservice.idev-biz-admin.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/idev-biz-admin/idev-microservice.idev-biz-admin.test.iml" filepath="$PROJECT_DIR$/.idea/modules/idev-biz-admin/idev-microservice.idev-biz-admin.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/idev-biz-ihome/idev-microservice.idev-biz-ihome.iml" filepath="$PROJECT_DIR$/.idea/modules/idev-biz-ihome/idev-microservice.idev-biz-ihome.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/idev-biz-ihome/idev-microservice.idev-biz-ihome.main.iml" filepath="$PROJECT_DIR$/.idea/modules/idev-biz-ihome/idev-microservice.idev-biz-ihome.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/idev-biz-ihome/idev-microservice.idev-biz-ihome.test.iml" filepath="$PROJECT_DIR$/.idea/modules/idev-biz-ihome/idev-microservice.idev-biz-ihome.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/idev-common-biz/idev-microservice.idev-common-biz.iml" filepath="$PROJECT_DIR$/.idea/modules/idev-common-biz/idev-microservice.idev-common-biz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/idev-common-biz/idev-microservice.idev-common-biz.main.iml" filepath="$PROJECT_DIR$/.idea/modules/idev-common-biz/idev-microservice.idev-common-biz.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/idev-common-biz/idev-microservice.idev-common-biz.test.iml" filepath="$PROJECT_DIR$/.idea/modules/idev-common-biz/idev-microservice.idev-common-biz.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/idev-config/idev-microservice.idev-config.iml" filepath="$PROJECT_DIR$/.idea/modules/idev-config/idev-microservice.idev-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/idev-config/idev-microservice.idev-config.main.iml" filepath="$PROJECT_DIR$/.idea/modules/idev-config/idev-microservice.idev-config.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/idev-config/idev-microservice.idev-config.test.iml" filepath="$PROJECT_DIR$/.idea/modules/idev-config/idev-microservice.idev-config.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/idev-core/idev-microservice.idev-core.iml" filepath="$PROJECT_DIR$/.idea/modules/idev-core/idev-microservice.idev-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/idev-core/idev-microservice.idev-core.main.iml" filepath="$PROJECT_DIR$/.idea/modules/idev-core/idev-microservice.idev-core.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/idev-core/idev-microservice.idev-core.test.iml" filepath="$PROJECT_DIR$/.idea/modules/idev-core/idev-microservice.idev-core.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/idev-gateway/idev-microservice.idev-gateway.iml" filepath="$PROJECT_DIR$/.idea/modules/idev-gateway/idev-microservice.idev-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/idev-gateway/idev-microservice.idev-gateway.main.iml" filepath="$PROJECT_DIR$/.idea/modules/idev-gateway/idev-microservice.idev-gateway.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/idev-gateway/idev-microservice.idev-gateway.test.iml" filepath="$PROJECT_DIR$/.idea/modules/idev-gateway/idev-microservice.idev-gateway.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/idev-register/idev-microservice.idev-register.iml" filepath="$PROJECT_DIR$/.idea/modules/idev-register/idev-microservice.idev-register.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/idev-register/idev-microservice.idev-register.main.iml" filepath="$PROJECT_DIR$/.idea/modules/idev-register/idev-microservice.idev-register.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/idev-register/idev-microservice.idev-register.test.iml" filepath="$PROJECT_DIR$/.idea/modules/idev-register/idev-microservice.idev-register.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/idev-microservice.main.iml" filepath="$PROJECT_DIR$/.idea/modules/idev-microservice.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/idev-microservice.test.iml" filepath="$PROJECT_DIR$/.idea/modules/idev-microservice.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/idev-register.iml" filepath="$PROJECT_DIR$/.idea/modules/idev-register.iml" />
+    </modules>
+  </component>
+</project>
