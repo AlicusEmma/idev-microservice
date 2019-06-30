@@ -14,3 +14,23 @@ eureka:
 spring:
   application:
     name: idev-gateway # 在eureka中此值作为vipaddress,在发现服务时使用
+  cloud:
+      gateway:
+        routes:
+        - id: idev_route
+          uri: http://localhost:10100/
+          predicates:
+          - Path=/idev
+          filters:
+            - RewritePath=/employee/(?<path>.*), /$\{path}
+            - name: iDevHystrix
+              args:
+                name: fallbackcmd
+                fallbackUri: forward:/fallback
+
+logging:
+  level:
+    org.springframework.cloud.gateway: TRACE
+    org.springframework.http.server.reactive: DEBUG
+    org.springframework.web.reactive: DEBUG
+    reactor.ipc.netty: DEBUG
