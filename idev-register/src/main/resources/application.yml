@@ -1,0 +1,4 @@
+# App Server Config
+spring:
+  profiles :
+    active : dev
