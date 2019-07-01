@@ -3,4 +3,7 @@ archivesBaseName = 'idev-biz'
 
 dependencies {
 
+    // 设置项目依赖
+    compile project(':idev-core')
+
 }
